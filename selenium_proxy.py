@@ -1,6 +1,7 @@
 from selenium import webdriver
 import time
 import random
+import seleniumwie
 
 from fake_useragent import UserAgent
 
@@ -34,6 +35,8 @@ useragent = UserAgent()
 options.add_argument(f"user-agent={useragent.random}")
 
 options.add_argument("--proxy-server=138.128.91.65:8000")
+
+proxy_options = {"proxy" : {"https" : f"http://{login} : {password}@138.128.91.65:8000" }}
 
 
 #Эта переменная хранит урл подключаемого сайта
