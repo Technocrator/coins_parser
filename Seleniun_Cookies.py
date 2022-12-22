@@ -3,6 +3,8 @@ import time
 import random
 import selenium
 from selenium.webdriver.common.keys import Keys
+import pickle
+
 
 from fake_useragent import UserAgent
 
@@ -51,6 +53,9 @@ try:
     # email_input.find_element_by_id('auth_btn').click()
     #Передаём нажатие кавиши ENTER
     email_input.send_keys(Keys.ENTER)
+    
+    pickle.dump(driver.get_cookies(), open('cookies','wb'))
+    
 except Exception as ex:
     print(ex)
 
