@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Dec 27 13:19:10 2022
-
-@author: 0
-"""
 
 import selenium
 from selenium import webdriver
@@ -12,9 +6,10 @@ import requests
 import datetime
 
 #Эта функция примет начальный индекс имени файла и байтовый массив, который затем сохранит в файл картинки формата .jpg
-def save_func(i, image_bytes):
+def save_func(src, image_bytes):
     #Откроем файл для записи двоичной информации с атрибутом wb и запишем в него переданные байты
-    with open (f"{e}image.jpg", "wb") as file:
+    fn=src.replace(":","").replace("/","")
+    with open (fn, "wb") as file:
         file.write(image_bytes)
 
 options = webdriver.ChromeOptions()
@@ -37,6 +32,6 @@ for e,i in enumerate(img):
     src = i.get_attribute('src')
     print(src)
     image_bytes = bytes(requests.get(src).content)
-    save_func(str(e), image_bytes)
+    save_func(str(src), image_bytes)
     
 
