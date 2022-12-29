@@ -114,12 +114,13 @@ class Ui_MainWindow(object):
                 self.lots_links.append('https://auction.ru'+a['href'])
         #запишем получившийся массив ссылок в файл, имя файла возьмём из строки поискового запроса
         fname = self.lineEdit.text()+'.txt'
+        srch_str=self.lineEdit.text()
         try:
-            os.mkdir(f"D:\\python\\coins_parser\\pictures_dataset\\{self.lineEdit.text()})
+            os.mkdir(f"D:\python\coins_parser\pictures_dataset\{srch_str}")
         #Если такая директория уже существует, выведем об этом сообщение в текстовое поле
         except FileExistsError:
             self.textEdit.append('Каталог ' + fname+'_set' + ' уже существует')
-        f = open(f"D:\\python\\coins_parser\\pictures_dataset\\{self.lineEdit.text()}\\{fname}", 'a')
+        f = open(f"D:\python\coins_parser\pictures_dataset\{srch_str}\\{fname}", 'a')
         for lot in self.lots_links:
             
             f.write(str(lot+'\n'))
@@ -134,7 +135,7 @@ class Ui_MainWindow(object):
     def save_func(self, dir_name,src, image_bytes):
         #Откроем файл для записи двоичной информации с атрибутом wb и запишем в него переданные байты
         fn=src.replace(":","").replace("/","")
-        with open (f"dir_name\\{fn}", "wb") as file:
+        with open (f"{dir_name}\{fn}", "wb") as file:
             file.write(image_bytes)
     
     #Эта функция обрабатывает нажатие кнопки Скачать фото
@@ -179,7 +180,7 @@ class Ui_MainWindow(object):
             #В этом цикле загружаем содержимое каждой картинки в виде байтов и вызываем функцию save_func для сохранения их в файлы картинок на диске
             for e,i in enumerate(img):
                 src = i.get_attribute('src')
-                dir_name = os.path.basename(fname)
+                dir_name = f"D:\python\coins_parser\pictures_dataset\{os.path.basename(fname)}".strip(".txt")
                 print(src)
                 image_bytes = bytes(requests.get(src).content)
                 self.save_func(dir_name, str(src), image_bytes)

@@ -9,7 +9,7 @@ import datetime
 def save_func(src, image_bytes):
     #Откроем файл для записи двоичной информации с атрибутом wb и запишем в него переданные байты
     fn=src.replace(":","").replace("/","")
-    with open (fn, "wb") as file:
+    with open (f"D:\\python\\coins_parser\\pictures_dataset\\{fn}", "wb") as file:
         file.write(image_bytes)
 
 options = webdriver.ChromeOptions()
@@ -17,6 +17,7 @@ useragent = UserAgent()
 
 #Представимся useragent-ом как браузер IE
 options.add_argument(f"user-agent = {useragent.ie}")
+options.headless = True
 
 #Адрес лота, где содержаться картинки
 url = "https://auction.ru/offer/rubl_1898_parizh_nechastyj_khoroshee_sostojanie_xf_fotr1069-i241971265377629.html"
