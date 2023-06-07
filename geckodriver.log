@@ -1,0 +1,544 @@
+1678800170695	geckodriver	INFO	Listening on 127.0.0.1:60008
+1678800290504	geckodriver	INFO	Listening on 127.0.0.1:60112
+1678800532737	geckodriver	INFO	Listening on 127.0.0.1:60257
+1678800734323	geckodriver	INFO	Listening on 127.0.0.1:60327
+1678800737378	geckodriver	INFO	Listening on 127.0.0.1:60337
+1678800927943	geckodriver	INFO	Listening on 127.0.0.1:60392
+1678800930977	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\0\\AppData\\Local\\Temp\\rust_mozprofileZEAHcB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678800931881	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678800931895	Marionette	INFO	Listening on port 60403
+Read port: 60403
+1678800932187	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\0\\AppData\\Local\\Temp\\rust_mozprofileZEAHcB\\search.json.mozlz4", (void 0)))
+[Child 9640, MediaDecoderStateMachine #1] WARNING: Decoder=20d6b287900 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 9640, MediaDecoderStateMachine #1] WARNING: Decoder=20d6b287900 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 9640, MediaDecoderStateMachine #1] WARNING: Decoder=20d6feb1d00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 9640, MediaDecoderStateMachine #1] WARNING: Decoder=20d6feb1d00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 9640, MediaDecoderStateMachine #1] WARNING: Decoder=20d6ff7b100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 9640, MediaDecoderStateMachine #1] WARNING: Decoder=20d6ff7b100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 9640, MediaDecoderStateMachine #1] WARNING: Decoder=20d6c3a7300 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 9640, MediaDecoderStateMachine #1] WARNING: Decoder=20d6c3a7300 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Parent 4952, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 4952, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 4952, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 4952, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 4952, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 4952, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 4952, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 4952, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 4952, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 4952, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 4952, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 4952, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 4952, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 4952, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 4952, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 4952, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 4952, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 4952, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 4952, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 4952, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 4952, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 4952, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1678860686877	Marionette	INFO	Stopped listening on port 60403
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1681204728625	geckodriver	INFO	Listening on 127.0.0.1:65235
+1681204731615	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\0\\AppData\\Local\\Temp\\rust_mozprofileqxJpar"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681204732522	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681204732533	Marionette	INFO	Listening on port 65245
+Read port: 65245
+1681204732817	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\0\\AppData\\Local\\Temp\\rust_mozprofileqxJpar\\search.json.mozlz4", (void 0)))
+[Child 10576, MediaDecoderStateMachine #1] WARNING: Decoder=1ebb8591c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 10576, MediaDecoderStateMachine #1] WARNING: Decoder=1ebb8591c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 10576, MediaDecoderStateMachine #1] WARNING: Decoder=1ebad5cc100 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 10576, MediaDecoderStateMachine #1] WARNING: Decoder=1ebad5cc100 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 10576, MediaDecoderStateMachine #1] WARNING: Decoder=1ebb9a34100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 10576, MediaDecoderStateMachine #1] WARNING: Decoder=1ebb9a34100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+JavaScript warning: https://yastatic.net/vas-bundles/754788/bundles-es2017/loader.bundle.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+JavaScript warning: https://yastatic.net/vas-bundles/754788/bundles-es2017/loader.bundle.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to open media
+JavaScript warning: https://yastatic.net/vas-bundles/754788/bundles-es2017/loader.bundle.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to open media
+[Parent 7564, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1681214483353	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[Parent 7564, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1681281372606	Marionette	INFO	Stopped listening on port 65245
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\0\\AppData\\Local\\Temp\\rust_mozprofilekRhfQB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681280351013	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681280351030	Marionette	INFO	Listening on port 63479
+Read port: 63479
+1681280351343	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\0\\AppData\\Local\\Temp\\rust_mozprofilekRhfQB\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+JavaScript warning: https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 15376, MediaDecoderStateMachine #1] WARNING: Decoder=14f6eb61c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 15376, MediaDecoderStateMachine #1] WARNING: Decoder=14f6eb61c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 15056, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1681284791347	Marionette	INFO	Stopped listening on port 63479
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+sole.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681283934092	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681283934104	Marionette	INFO	Listening on port 52130
+Read port: 52130
+1681283934742	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 414))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\0\\AppData\\Local\\Temp\\rust_mozprofileF2iw1D\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+1681283943925	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1681284324160	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1681284791263	Marionette	INFO	Stopped listening on port 52130
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+sole.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681284770504	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681284770514	Marionette	INFO	Listening on port 52213
+Read port: 52213
+1681284770765	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 414))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\0\\AppData\\Local\\Temp\\rust_mozprofile9lhVRA\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+1681284783277	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1681284788556	Marionette	INFO	Stopped listening on port 52213
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1681285099217	geckodriver	INFO	Listening on 127.0.0.1:52268
+1681285102197	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\0\\AppData\\Local\\Temp\\rust_mozprofile0MKIaM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681285103033	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681285103043	Marionette	INFO	Listening on port 52278
+Read port: 52278
+1681285103546	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\0\\AppData\\Local\\Temp\\rust_mozprofile0MKIaM\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+JavaScript warning: https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 8064, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Child 14136, MediaDecoderStateMachine #1] WARNING: Decoder=229603f3700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 14136, MediaDecoderStateMachine #1] WARNING: Decoder=229603f3700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Parent 8064, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Child 14136, MediaDecoderStateMachine #1] WARNING: Decoder=2295af0ca00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 14136, MediaDecoderStateMachine #1] WARNING: Decoder=2295af0ca00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 14136, MediaDecoderStateMachine #1] WARNING: Decoder=2295baa5200 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 14136, MediaDecoderStateMachine #1] WARNING: Decoder=2295baa5200 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Parent 8064, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 8064, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1681286078149	Marionette	INFO	Stopped listening on port 52278
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1681286082374	geckodriver	INFO	Listening on 127.0.0.1:53533
+1681286085344	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\0\\AppData\\Local\\Temp\\rust_mozprofileXUaOay"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681286085987	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681286085999	Marionette	INFO	Listening on port 53543
+Read port: 53543
+1681286086552	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\0\\AppData\\Local\\Temp\\rust_mozprofileXUaOay\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+JavaScript warning: https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 720, MediaDecoderStateMachine #1] WARNING: Decoder=11d22317b00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 720, MediaDecoderStateMachine #1] WARNING: Decoder=11d22317b00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+JavaScript warning: https://yastatic.net/vas-bundles/753669/bundles-es2017/loader.bundle.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to open media
+[Child 720, MediaDecoderStateMachine #1] WARNING: Decoder=11d2529c800 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 720, MediaDecoderStateMachine #1] WARNING: Decoder=11d23236400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 720, MediaDecoderStateMachine #1] WARNING: Decoder=11d23236400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Parent 11928, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Child 720, MediaDecoderStateMachine #1] WARNING: Decoder=11d25e90400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 720, MediaDecoderStateMachine #1] WARNING: Decoder=11d25e90400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\0\AppData\Local\Temp\rust_mozprofileXUaOay\bookmarkbackups\bookmarks-2023-04-12.jsonlz4) because it does not exist
+JavaScript warning: https://yastatic.net/vas-bundles/753669/bundles-es2017/loader.bundle.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+[Parent 11928, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 11928, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 11928, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+JavaScript warning: https://yastatic.net/vas-bundles/753669/bundles-es2017/loader.bundle.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to open media
+[Parent 11928, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 11928, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 11928, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 11928, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1681300182929	Marionette	INFO	Stopped listening on port 53543
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+sole.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681294562780	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681294562790	Marionette	INFO	Listening on port 57516
+Read port: 57516
+1681294563019	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\0\\AppData\\Local\\Temp\\rust_mozprofilePiudjh\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+JavaScript warning: https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 15088, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 15088, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 15088, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 15088, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 15088, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 15088, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 15088, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 15088, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 15088, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 15088, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 15088, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 15088, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 15088, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 15088, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 15088, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 15088, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 15088, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 15088, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1681300182739	Marionette	INFO	Stopped listening on port 57516
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1681300361192	geckodriver	INFO	Listening on 127.0.0.1:61865
+1681300364185	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\0\\AppData\\Local\\Temp\\rust_mozprofile9Gpgfu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681300365098	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681300365108	Marionette	INFO	Listening on port 61877
+Read port: 61877
+1681300365702	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\0\\AppData\\Local\\Temp\\rust_mozprofile9Gpgfu\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+JavaScript warning: https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986b42b00 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f98dcbb100 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f98dcbb100 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f996cded00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f996cded00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f993f3c200 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f993f3c200 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f98fe2ba00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f98fe2ba00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f98eadb400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f98eadb400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f996d52e00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f996d52e00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f996cde700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f996cde700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986b43a00 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986b43a00 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986b93000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986b93000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Parent 5828, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f995ea2b00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f995ea2b00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f997ae8900 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f997ae8900 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f98fe3d700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f98fe3d700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f997ae3d00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f997ae3d00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9967e8900 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9967e8900 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986bc5700 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f996d4fd00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f996d4fd00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9967eaa00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9967eaa00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99577b900 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99577b900 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f996d51500 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f996d51500 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9979a3f00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9979a3f00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986bd4d00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986bd4d00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f996d51200 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f996d51200 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f98e07e600 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f98e07e600 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f996d33b00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f996d33b00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f995ea2e00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f995ea2e00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9903abd00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9903abd00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9961fce00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9961fce00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f999326a00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f999326a00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f995ea1900 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f995ea1900 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99a2e1100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99a2e1100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99a7bf700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99a7bf700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99978fb00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99978fb00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9998e0500 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9998e0500 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f999fc4100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f999fc4100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9903c7e00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9903c7e00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f997ab3400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f997ab3400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f997e22200 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986bcd100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986bcd100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a07d2400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a07d2400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986bd0d00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986bd0d00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99b9dad00 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99bf9d400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99bf9d400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f990198a00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f990198a00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986bd1700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986bd1700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a28ba300 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a28ba300 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a4f9e000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a4f9e000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Parent 5828, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a38b7100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a38b7100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a44e1800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a44e1800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99f5ae100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99f5ae100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a38b4a00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a38b4a00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a308ca00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a308ca00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Parent 5828, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99c28ab00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99c28ab00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a5d6cd00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a5d6cd00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+JavaScript warning: https://yastatic.net/vas-bundles/753075/bundles-es2017/loader.bundle.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to open media
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f996337400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f996337400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99031d800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99031d800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f998f53400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f998f53400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f98dc2c700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f98dc2c700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986b41c00 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986b41c00 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99933a300 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99933a300 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f999841e00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f999841e00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f999840900 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f999840900 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986bc5400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986bc5400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f999f3b400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f999f3b400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986bce900 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986bce900 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99a822100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99a822100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986bc3500 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986bc3500 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9957e8100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9957e8100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986bc5700 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986b43a00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986b43a00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+JavaScript warning: https://yastatic.net/vas-bundles/753075/bundles-es2017/loader.bundle.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to open media
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a34ae700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a34ae700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f999292400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f999292400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99bf9c500 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99bf9c500 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f999fd7e00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f999fd7e00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f998f52500 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f998f52500 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986b40d00 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986b40d00 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f98dcfcb00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f98dcfcb00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99f588000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99f588000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986b93c00 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986b93c00 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986b93c00 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986b93c00 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a05e6400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a05e6400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a05ddc00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a05ddc00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a382e300 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a382e300 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a307ad00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a307ad00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a3078000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a3078000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a555c100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a555c100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a381d900 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a381d900 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a6db8a00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9a6db8a00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9ac78d700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9ac78d700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f999840300 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f999840300 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f999734700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f999734700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Parent 5828, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f98d874500 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f98d874500 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99addde00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f99addde00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9903c5400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9903c5400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9954ee400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f9954ee400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986bc7200 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986bc7200 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986bc7200 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986bc7200 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986bc7200 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986bc2000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986bc2000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986b41900 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986b41900 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986b41900 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f986b41900 Decode error: NS_ERROR_DOM_MEDIA_DEMUXER_ERR (0x806e000c): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f998fd8f00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f998fd8f00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f998f6bc00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 2620, MediaDecoderStateMachine #1] WARNING: Decoder=1f998f6bc00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+JavaScript warning: https://yastatic.net/vas-bundles/753075/bundles-es2017/loader.bundle.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to open media
+1681303081604	Marionette	INFO	Stopped listening on port 61877
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+sole.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681302971242	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681302971258	Marionette	INFO	Listening on port 62262
+Read port: 62262
+1681302971577	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\0\\AppData\\Local\\Temp\\rust_mozprofile5eDvG1\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+JavaScript warning: https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 15636, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 15636, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 15636, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 15636, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1681311433242	Marionette	INFO	Stopped listening on port 62262
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
