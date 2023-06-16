@@ -542,3 +542,19 @@ JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_
 1681311433242	Marionette	INFO	Stopped listening on port 62262
 Dynamically enable window occlusion 1
 JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1686821672032	geckodriver	INFO	Listening on 127.0.0.1:51678
+1686821675050	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\0\\AppData\\Local\\Temp\\rust_mozprofilerdoAR1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686821676198	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686821676210	Marionette	INFO	Listening on port 51689
+Read port: 51689
+Read port: 51689
+1686821678078	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\0\\AppData\\Local\\Temp\\rust_mozprofilerdoAR1\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+1686822273698	Marionette	INFO	Stopped listening on port 51689
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+[Parent 2288, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:583
