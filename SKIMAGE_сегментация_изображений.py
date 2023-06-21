@@ -36,3 +36,14 @@ image = io.imread(f'D:\python\coins_parser\pictures_dataset\cler_test_set\httpss
 
 image_gray = color.rgb2gray(image)
 image_show(image_gray)
+
+#Активная контурная сегментация
+
+def circle_points(resolution, center)
+
+
+snake = seg.active_contour(image_gray, alpha=0.06, beta = 0.3)
+
+fig, ax = image_show(image)
+
+ax.plot()
