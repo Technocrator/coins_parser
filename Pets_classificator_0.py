@@ -90,4 +90,38 @@ model.add(Dense(1024, input_shape=(3072,), activation="sigmoid"))
 model.add(Dense(512,activation="sigmoid"))
 model.add(Dense(len(lb.classes_), activation="softmax"))
 
+#После того, как мы определили архитектуру нашей нйронной сети, нам необходимо скомпилировать её
+#инициализируем скорость обучения и общее число эпох
 
+INIT_LR = 0.01
+EPOCHS = 75
+
+#Компилируем модель, используя SGD как оптимизатор и категориальную кросс-энтропию
+#в качестве функции потерь (для бинарной классификации следует использовать binary_crossentropy)
+
+print ("[INFO] training network...")
+
+opt = SGD(lr=INIT_LR)
+model.compile(loss="categorical_crossentropy", optimizer=opt, metrics=["accuracy"])
+
+#Теперь, когда наша модель Keras скомпилирована, мы можем "подогнать" (fit) (т.е. обучить) её
+#обучаем нейросеть
+
+H = model.fit(trainX, trainY, validation_data=(testX, testY), epochs=EPOCHS, batch_size=32)
+
+#Мы обучили модель, теперь нужно оценить её с помощью тестовой выборки
+#Для оценки модели Keras можно использовать комбинацию методов .predict и classification_report из scikit-learn
+#Оцениваем нейросеть
+
+print("[INFO] evaluating network...")
+predictions = model.predict(testX, batch_size=32)
+print(classification_report(testY.argmax(axis=1), predictions.argmax(axis=1), target_names=lb.classes_))
+
+#Строим граффик потерь и точности
+
+N = np.arange(0, EPOCHS)
+plt.style.use("ggplot")
+plt.figure()
+plt.plot(N, H.history["loss"], label="train_loss")
+plt.plot(N, H.history["val_loss"], label = "val_loss")
+plt.plot(N, H.history["acc"], label = "train_acc")
