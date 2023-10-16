@@ -42,7 +42,7 @@ data = []
 labels = []
 
 #Берём пути к изображениям и рандомно перемешиваем
-imagePaths = sorted(list(path.list_images(args["dataset"])))
+imagePaths = sorted(list(paths.list_images(args["dataset"])))
 random.seed(42)
 random.shuffle(imagePaths)
 
