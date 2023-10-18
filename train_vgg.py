@@ -56,7 +56,7 @@ for imagePath in imagePaths:
     
     #Извлекаем метку класса из пути к изображению и обновляем список меток
     
-    label = imagePath.split(os.path.sep[-2])
+    label = imagePath.split(os.path.sep)[-2]
     labels.append(label)
     
 #Масштабируем интенсивности пикселей в диапазон [0, 1]

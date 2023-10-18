@@ -24,16 +24,18 @@ class SmallVGGNet:
         inputShape = (height, width, depth)
         chanDim = -1
         
-        #если вы используете порядок "channels_first", обновляем
-        #входное изображение и размер канала
-        if K.image_data_format() == "channels_first":
-            inputShape = (depth, height, width)
-            chanDim = 1
+        # #если вы используете порядок "channels_first", обновляем
+        # #входное изображение и размер канала
+        # if K.image_data_format() == "channels_first":
+        #     inputShape = (depth, height, width)
+        #     chanDim = 1
             
         #Теперь добавим несколько слоёв в сеть
         #Слои CONV -> RELU -> POOL
 
-        model.add(Conv2D(32,(3,3), padding="same", inputShape=inputShape))
+        
+
+        model.add(Conv2D(32,(3,3), padding="same", input_shape=inputShape))
         model.add(Activation("relu"))
         model.add(BatchNormalization(axis=chanDim))
         model.add(MaxPooling2D(pool_size=(2,2)))
