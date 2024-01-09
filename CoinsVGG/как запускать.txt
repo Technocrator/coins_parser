@@ -1,3 +1,10 @@
-python train_vgg_1.py --dataset D:\\python\\coins_parser\\coins_parser\\animals\\ --model D:\\python\\coins_parser\\coins_parser\\output\\smallvggnet.model --label-bin D:\\python\\coins_parser\\coins_parser\\output\\smallvggnet_lb.pickle --plot D:\\python\\oins_parser\\coins_parser\\output\\smallvggnet_plot.png
+Запустить тренировку
 
-python predict.py --image D:\\python\\coins_parser\\coins_parser\\images\\panda.jpg --model D:\\python\\coins_parser\\coins_parser\\output\\smallvggnet.model --label-bin D:\\python\\coins_parser\\coins_parser\\output\\smallvggnet_lb.pickle --width 64 --height 64
+
+python train_vgg_coins.py --dataset D:\\python\\coins_parser\\pictures_dataset\\10_kop_silver_sorted\\train\\ --model D:\\python\\coins_parser\\CoinsVGG\\output\\smallvggnet.model --label-bin D:\\python\\coins_parser\\CoinsVGG\\output\\smallvggnet_lb.pickle --plot D:\\python\\oins_parser\\CoinsVGG\\output\\smallvggnet_plot.png
+
+
+Запустить предсказатель
+python predict.py --image D:\\python\\coins_parser\\pictures_dataset\\10_kop_silver_sorted\\test\\coins\\coins1.jpg --model D:\\python\\coins_parser\\CoinsVGG\\output\\smallvggnet.model --label-bin D:\\python\\coins_parser\\CoinsVGG\\output\\smallvggnet_lb.pickle --width 64 --height 64
+
+python predict.py --image D:\\python\\coins_parser\\coins_parser\\animals\\panda\\panda_00002.jpg --model D:\\python\\coins_parser\\CoinsVGG\\output\\smallvggnet.model --label-bin D:\\python\\coins_parser\\CoinsVGG\\output\\smallvggnet_lb.pickle --width 64 --height 64
