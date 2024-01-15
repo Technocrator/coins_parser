@@ -1,0 +1,59 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Jan 12 11:52:47 2024
+
+@author: 0
+"""
+"""
+Скрипт поиска геометрическхи фигур - окружностей на изображениях, с целью идентификации предметов похожих на монету :)
+
+"""
+
+%matplotlib inline
+%config InlineBackend.figure_format = 'retina'
+
+import cv2 as cv
+import numpy as np
+import math
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+from pprint import pprint
+
+#Выставим разрешение картинки по умолчанию 200 dpi
+mpl.rcParams['figure.dpi'] = 200
+#считаем оригинальное изображение
+original = cv.imread("D:\\python\\coins_parser\\pictures_dataset\\10_kop_silver_sorted\\test\\coins\\coins1.jpg")
+#в следующие 2 переменные detected и img поместим копии считанного изображения
+detected = original.copy()
+img = original.copy()
+#одну из копий в переменной img преобразуем в оттенки серого
+img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+# и далее применим фильтр medianBlur
+img = cv.medianBlur(img, 5)
+#Создадим изображение при помощи объекта plt
+fig = plt.figure()
+#добавим дополнительное изображение к основному
+fig.add_subplot(1, 2,1)
+#отключим оси графика на постраевомом изображении)))
+plt.axis('off')
+#Укажем в заголовке картинки, что это оригинал
+plt.title("Original")
+#прорисуем оригинальную картинку
+plt.imshow(cv.cvtColor(original, cv.COLOR_BGR2RGB))
+
+#Добавим дополнительное изображение к основному, оно будет в оттенках серого
+fig.add_subplot(1,2,2)
+#Выключим отображение осей и укажем заголовок
+plt.axis('off')
+plt.title('Gray/Blur')
+#при помощи атрибута cmap укажем, что нам нужно изображение в оттенках серого
+plt.imshow(img, cmap='gray')
+
+plt.show()
+
+#С помощью метода cv.trashold укажем порог, разделяющий изображение на чёрное и белое
+ret, thresh = cv.treshold(img, 0, 255, cv.THRESH_BINARY+cv.THRASH_OTSU)
+rer, thresh = cv.threshold(img, ret-10, 255, cv.THRESH_BINARY)
+plt.axvline(x=ret, color="r")
+print("Threshold value: {}".format(ret))
+plt.hist(img.ravel())
