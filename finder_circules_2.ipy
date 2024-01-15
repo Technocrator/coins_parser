@@ -52,8 +52,17 @@ plt.imshow(img, cmap='gray')
 plt.show()
 
 #С помощью метода cv.trashold укажем порог, разделяющий изображение на чёрное и белое
-ret, thresh = cv.treshold(img, 0, 255, cv.THRESH_BINARY+cv.THRASH_OTSU)
+ret, thresh = cv.threshold(img, 0, 255, cv.THRESH_BINARY+cv.THRESH_OTSU)
 rer, thresh = cv.threshold(img, ret-10, 255, cv.THRESH_BINARY)
 plt.axvline(x=ret, color="r")
 print("Threshold value: {}".format(ret))
-plt.hist(img.ravel())
+plt.hist(img.ravel(),256,[0,256])
+plt.show()
+
+fig = plt.figure()
+fig.add_subplot(1, 1, 1)
+plt.axis('off')
+plt.title("Threshold: ({}/255)".format(ret))
+plt.imshow(thresh, cmap='gray')
+
+plt.show()
