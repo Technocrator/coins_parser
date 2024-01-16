@@ -51,7 +51,7 @@ plt.imshow(img, cmap='gray')
 
 plt.show()
 
-#С помощью метода cv.trashold укажем порог, разделяющий изображение на чёрное и белое
+#С помощью метода cv.trashold укажем порог, разделяющий изображение на чёрное и белое, построим граффик контрастности
 ret, thresh = cv.threshold(img, 0, 255, cv.THRESH_BINARY+cv.THRESH_OTSU)
 rer, thresh = cv.threshold(img, ret-10, 255, cv.THRESH_BINARY)
 plt.axvline(x=ret, color="r")
@@ -59,10 +59,26 @@ print("Threshold value: {}".format(ret))
 plt.hist(img.ravel(),256,[0,256])
 plt.show()
 
+#Отобразим Ч\Б изображение
 fig = plt.figure()
 fig.add_subplot(1, 1, 1)
 plt.axis('off')
 plt.title("Threshold: ({}/255)".format(ret))
 plt.imshow(thresh, cmap='gray')
 
+plt.show()
+#Найдём контуры изображений на окружности
+contours, hierarchy = cv.findContours(thresh, cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
+# Далее мы проходимся в цикле по нашим контурам, где с помощью функции boundingRect() находим ограничительные рамки каждого контура: начальные x и y координаты, за которыми следуют ширина и высота рамки
+sorted_ctrs = sorted(contours, key = lambda ctr: cv.boundingRect(ctr)[0])
+approxPolyCurves = original.copy()
+
+for i, ctr in enumerate(sorted_ctrs):
+    epsilon = 0.001*cv.arcLength(ctr,True)
+    approx = cv.approxPolyDP(ctr,epsilon,True)    
+    cv.drawContours(approxPolyCurves, approx, -1, (0, 0, 255), 3)
+
+plt.title("Approximated Polygonal Curves")
+plt.axis('off')
+plt.imshow(cv.cvtColor(approxPolyCurves, cv.COLOR_BGR2RGB))
 plt.show()
