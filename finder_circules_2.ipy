@@ -22,7 +22,7 @@ from pprint import pprint
 #Выставим разрешение картинки по умолчанию 200 dpi
 mpl.rcParams['figure.dpi'] = 200
 #считаем оригинальное изображение
-original = cv.imread("D:\\python\\coins_parser\\pictures_dataset\\10_kop_silver_sorted\\test\\coins\\coins1.jpg")
+original = cv.imread("D:\\python\\coins_parser\\pictures_dataset\\10_kop_silver_sorted\\test\\coins\\coins238.jpg")
 #в следующие 2 переменные detected и img поместим копии считанного изображения
 detected = original.copy()
 img = original.copy()
@@ -52,7 +52,7 @@ plt.imshow(img, cmap='gray')
 plt.show()
 
 #С помощью метода cv.trashold укажем порог, разделяющий изображение на чёрное и белое, построим граффик контрастности
-ret, thresh = cv.threshold(img, 0, 255, cv.THRESH_BINARY+cv.THRESH_OTSU)
+ret, thresh = cv.threshold(img, 215, 255, cv.THRESH_BINARY+cv.THRESH_OTSU)
 rer, thresh = cv.threshold(img, ret-10, 255, cv.THRESH_BINARY)
 plt.axvline(x=ret, color="r")
 print("Threshold value: {}".format(ret))
@@ -81,4 +81,69 @@ for i, ctr in enumerate(sorted_ctrs):
 plt.title("Approximated Polygonal Curves")
 plt.axis('off')
 plt.imshow(cv.cvtColor(approxPolyCurves, cv.COLOR_BGR2RGB))
+plt.show()
+
+circleAreas = []
+circleCenters = []
+circles = {}
+
+coins = {"500": 0, "100": 0, "50": 0, "10": 0, "5": 0, "1": 0}
+
+for i, ctr in enumerate(sorted_ctrs):
+    #Функция arcLength возвращает длину дуги контура.
+    epsilon = 0.001*cv.arcLength(ctr, True)
+    #Функция cv.approxPolyDP находит координаты вершин изображения
+    approx = cv.approxPolyDP(ctr, epsilon, True)
+    if (len(approx) > 80):
+        #minEnclosingCircle - определяет координаты центра окружности и заносит их в x и y
+        #а так же определяет радиус окружности - переменная radius
+        (x,y), radius = cv.minEnclosingCircle(ctr)
+        if (thresh[int(y)][int(x)] != 0):
+            area = int(math.pi*(radius**2))
+            circles[radius] = (int(x), int(y))
+            fontColor = (0,0,0)
+            imgcenter = (int(x-15),int(y-10))
+            font = cv.FONT_HERSHEY_SIMPLEX
+
+            if (area > 7500):
+                coins["500"] += 1
+                text = "500"
+                fontColor = (255,255,255)
+            elif (7500 > area >= 6300):
+                coins["100"] += 1
+                text = "100"
+                fontColor = (0,0,255)
+            elif (6300 > area >= 5500):
+                coins["10"] += 1
+                text = "10"
+                fontColor = (255,255,88)
+            elif (5500 > area >= 5000):
+                coins["50"] += 1
+                text = "50"
+                fontColor = (255,0,120)
+            elif (5000 > area >= 3800):
+                coins["5"] += 1
+                text = "5"
+                fontColor = (0,255,0)
+            elif (area < 3800):
+                coins["1"] += 1
+                text = "1"
+                fontColor = (88,255,255)
+            cv.putText(detected, str(text), imgcenter, font, 0.6, fontColor, 2)
+#                 cv.putText(original, str("{}: {}".format(text, int(radius))), imgcenter, font, 0.6, fontColor, 2)
+            cv.circle(detected, (int(x), int(y)), int(radius), fontColor, 2)
+            cv.rectangle(detected, (int(x), int(y)), (int(x)+5,int(y)+5), fontColor, 5)
+cv.imwrite("D:\\python\\coins_parser\\pictures_dataset\\10_kop_silver_sorted\\test\\coins\\detected.jpg", detected)
+ig = plt.figure()
+
+fig.add_subplot(1, 2, 1)
+plt.axis('off')
+plt.title("Original")
+plt.imshow(cv.cvtColor(original, cv.COLOR_BGR2RGB))
+
+fig.add_subplot(1, 2, 2)
+plt.axis('off')
+plt.title("Detected coins | 500: {0}, 100: {1}, 50: {2}, 10: {3}, 1: {4}".format(coins["500"], coins["100"], coins["50"], coins["10"], coins["1"]))
+plt.imshow(cv.cvtColor(detected, cv.COLOR_BGR2RGB))
+
 plt.show()
